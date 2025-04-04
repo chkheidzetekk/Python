@@ -30,3 +30,22 @@
 # f.close()
 #
 # print(sity_count)
+
+# # davaleba 3
+# unique_words = set()
+# f = open('files.txt', 'r')
+# lines = f.readlines()
+# for line in lines:
+#     words = line.split()
+#     unique_words.update(words)
+#
+# print(len(unique_words))
+
+
+# # davaleba 4
+# from collections import Counter
+# 
+# with open('files.txt', 'r') as f:
+#     word_count = Counter(f.read().split())
+#
+# print(sum(1 for count in word_count.values() if count > 1))
